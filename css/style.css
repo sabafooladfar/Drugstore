@@ -1,0 +1,140 @@
+@font-face {
+    font-family: vazir;
+    src: url('../font/Vazir-Medium.eot') format('eot'),
+    url('../font/Vazir-Medium.woff') format('woff'),
+    url('../font/Vazir-Medium.woff2') format('woff2');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: vazir;
+}
+body{
+    background-color: #E1F5FE;
+}
+a{
+    text-decoration: none;
+    color: black !important;
+}
+a:hover{
+    color: #283593 !important;
+}
+li{
+    list-style: none;
+}
+.logo{
+    width: 30%;
+    height: 19vh;
+}
+.logoname{
+    font-size: 22px;
+    font-weight: bold;
+    color: #283593;
+    width: 146px;
+}
+.search{
+    outline: none;
+    border: #283593 solid 1px;
+    background-color: #E1F5FE;
+    border-left: none;
+}
+.submit-search{
+    background-color: #283593;
+    outline: none;
+    border: #283593 solid 1px;
+    position: relative;
+    left: 4px;
+    border-left: none;
+}
+.darbare{
+    background-color: #CFD8DC;
+    border: #5C6BC0 solid 1px;
+    color: black;
+    text-align: center;
+}
+.darbare:hover{
+    background-color: #5C6BC0;
+    transition: 0.3s ease-in-out;
+}
+.menu nav ul li a{
+    font-size: 14px;
+    color: black;
+}
+.menu div li a:hover{
+    color: #283593 !important;
+}
+.menu div ul{
+    background-color: #E1F5FE;
+}
+.deliver-illus{
+    width: 400px;
+}
+.ersal{
+    font-size: x-large;
+}
+.deliver-box{
+    /* width: 400px; */
+}
+.line{
+    /* width: 100%; */
+    height: 2px;
+}
+.kerem{
+    width: 60%;
+}
+.tedad{
+    width: 60px;
+}
+.pishnahad{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.div-pishnahad{
+    border-radius: 15px;
+    background-color: #CFD8DC;
+    background: rgb(207,216,220);
+background: linear-gradient(86deg, rgba(207,216,220,1) 73%, rgba(255,241,118,1) 100%);
+}
+.mahsoolate-bishtar{
+    color: black;
+}
+.mahsoolate-bishtar:hover{
+    color: #283593;
+}
+
+.moshahede{
+    color: black;
+}
+.moshahede:hover{
+    color: #283593;
+
+}
+.brand{
+    width: 400px;
+}
+.brand:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.05);
+    transition: 0.9s
+}
+footer{
+    background: rgb(47,47,43);
+background: linear-gradient(86deg, rgba(47,47,43,1) 42%, rgba(13,13,12,1) 100%);
+}
+.address{
+    background-color: #364194;
+}
+.vurud-box{
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.hesab-nadarid{
+    margin-left: 12px;
+    font-weight: bold;
+}
+.address p a:hover{
+    color: #E1F5FE !important;
+}
